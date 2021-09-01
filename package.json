@@ -1,0 +1,17 @@
+{
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "Api do sistema de noticias",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
